@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DumpIt — Brain dump journal</title>
+  <meta name="description" content="DumpIt is a brain dump journal for iPhone, iPad and Mac. Write 500 words in one sitting. No backspace, no editing.">
+  <link rel="icon" href="icon.png">
+  <style>
+    :root { --bg: #ffffff; --ink: #1d1d1f; --muted: #6e6e73; --line: #e5e5e7; --link: #0066cc; --green: #1f4b4a; color-scheme: light; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #111112; --ink: #f2f2f4; --muted: #a1a1a6; --line: #2c2c2e; --link: #4da3ff; --green: #9fd3c7; color-scheme: dark; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 400 17px/1.6 -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+    main { max-width: 620px; margin: 0 auto; padding: 72px 22px 64px; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .icon { width: 96px; height: 96px; border-radius: 22px; display: block; box-shadow: 0 8px 24px rgba(0, 0, 0, .12); }
+    h1 { font-size: 44px; line-height: 1.05; letter-spacing: -.03em; margin: 24px 0 0; font-weight: 700; }
+    .lede { font-size: 21px; color: var(--muted); margin: 10px 0 0; }
+    h2 { font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 44px 0 14px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+    p { margin: 0 0 10px; }
+    .rules { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; }
+    .rules b { display: block; }
+    .rules span { color: var(--muted); }
+    .bins { color: var(--muted); }
+    .bins b { color: var(--ink); font-weight: 600; }
+    .cta { display: inline-block; margin-top: 28px; padding: 13px 24px; border-radius: 999px; background: var(--green); color: var(--bg); font-weight: 600; }
+    .cta:hover { text-decoration: none; opacity: .9; }
+    .fine { color: var(--muted); font-size: 14px; margin-top: 12px; }
+    .shots { display: grid; gap: 16px; margin-top: 4px; }
+    .shots figure { margin: 0; }
+    .shots img { width: 100%; height: auto; display: block; border-radius: 12px; border: 1px solid var(--line); box-shadow: 0 12px 32px rgba(0, 0, 0, .08); }
+    .shots figcaption { color: var(--muted); font-size: 14px; margin-top: 8px; }
+    footer { margin-top: 56px; color: var(--muted); font-size: 13px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="icon" src="icon.png" alt="DumpIt app icon">
+    <h1>DumpIt</h1>
+    <p class="lede">Brain dump journal, made easy.</p>
+    <p style="margin-top:18px">Write 500 words in one sitting. Your words soften behind you as you go, and the finished session lands in a dated journal.</p>
+    <a class="cta" href="https://github.com/ericnguyendsg88/dumpit/releases/latest/download/DumpIt-macOS-AppleSilicon.zip">Download for Mac</a>
+    <p class="fine">macOS 14+ · Apple silicon · Free preview · Ad-hoc signed, not notarized</p>
+
+    <p class="fine">Unzip and move DumpIt to Applications. <a href="https://github.com/ericnguyendsg88/dumpit#try-the-mac-app">Installation instructions</a> · <a href="https://github.com/ericnguyendsg88/dumpit">Source on GitHub</a>. Build the iPhone and iPad versions with Xcode.</p>
+    <h2>On the Mac</h2>
+    <div class="shots">
+      <figure><img src="mac-home.jpg" alt="DumpIt for Mac: Ready to dump your thoughts? with the three rules" width="900" height="585"><figcaption>Start a 500-word session. The rules sit right under the button.</figcaption></figure>
+      <figure><img src="mac-bin.jpg" alt="DumpIt for Mac: Your bin, with clear mind points, this week and bin tiers" width="900" height="612" loading="lazy"><figcaption>The Bin: points, your week, and the bin you're working towards.</figcaption></figure>
+    </div>
+
+    <h2>The rules</h2>
+    <ul class="rules">
+      <li><b>No backspace.</b><span>The delete key does nothing.</span></li>
+      <li><b>No editing.</b><span>You can't go back up the page.</span></li>
+      <li><b>One sitting.</b><span>Leave, and the dump is binned.</span></li>
+    </ul>
+
+    <h2>Keep a streak</h2>
+    <p class="bins">Dump every day and your bin grows: <b>Cup bin</b> on day 1, then a mesh basket, a swing top, a pedal bin, a dome bin, a <b>Wheelie bin</b> at 60 days, a <b>Dumpster</b> at 100, and <b>Industrial</b> at 365.</p>
+
+    <footer><span>Made by <a href="https://ericnguyendsg88.github.io/">Eric Nguyen</a></span><a href="mailto:ericnguyendsg@gmail.com">Contact</a></footer>
+  </main>
+</body>
+</html>

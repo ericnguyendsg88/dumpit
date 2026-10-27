@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#27c8b2"/>
+      <stop offset="1" stop-color="#12aa9a"/>
+    </linearGradient>
+    <linearGradient id="pip" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8fff5"/>
+      <stop offset="1" stop-color="#bcefd9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="220" fill="url(#bg)"/>
+  <path d="M274 604c-69 0-125-49-125-111 0-58 49-106 112-110 22-105 111-181 218-181 117 0 213 89 224 203 81 1 146 61 146 135 0 76-69 138-154 138H299c-9 0-17-1-25-2z" fill="url(#pip)" stroke="#fff" stroke-width="20"/>
+  <circle cx="411" cy="500" r="18" fill="#173f3a"/>
+  <circle cx="589" cy="500" r="18" fill="#173f3a"/>
+  <path d="M438 555c42 41 86 41 128 0" fill="none" stroke="#173f3a" stroke-width="20" stroke-linecap="round"/>
+  <path d="M216 742c79-17 142-9 193 24M167 802c91-16 166-2 224 35" fill="none" stroke="#d9fff1" stroke-width="22" stroke-linecap="round"/>
+  <path d="M783 180l27 70 70 27-70 27-27 70-27-70-70-27 70-27z" fill="#ffd45a"/>
+</svg>
+
